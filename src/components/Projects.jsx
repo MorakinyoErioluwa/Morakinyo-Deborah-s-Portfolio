@@ -2,7 +2,7 @@ const projects = [
   {
     title: "News Homepage",
     description: "Responsive news homepage with clean layout and typography.",
-    image: "/screenshot/Newshomepgae-desktop.png",
+    image: "/screenshot/Newshomepgae-desktop.jpg",
     live: "https://interactive-dropdownproject.vercel.app",
     code: "https://github.com/MorakinyoErioluwa/Newspage-Homepage-Project.git"
   },
@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Sunnyside Landing Page",
     description: "Modern landing page with responsive design.",
-    image: "/screenshot/Sunnyside-Destop.png",
+    image: "/screenshot/Sunnyside-Destop.jpg",
     live: "https://sunny-side-landing-page-project.vercel.app/",
     code: "https://github.com/MorakinyoErioluwa/SunnySide-LandingPage-Project.git"
   },
@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Loopstudio",
     description: "Interactive landing page with strong visual hierarchy.",
-    image: "/screenshot/Loopsided-desktop.png",
+    image: "/screenshot/Loopsided-desktop.jpg",
     live: "https://loopsided-landing-page.vercel.app/",
     code: "https://github.com/MorakinyoErioluwa/loopsided-landing-page.git"
   },
@@ -42,7 +42,7 @@ const projects = [
   {
     title: "Portfolio",
     description: "Personal portfolio showcasing projects and frontend skills.",
-    image: "/screenshot/portfolio.png",
+    image: "/screenshot/portfolio.jpg",
     live: "https://the-loopsided-landing-page.netlify.app/",
     code: "https://github.com/Erioluwabee/THE-LOOPSIDED-LANDING.git"
   }
