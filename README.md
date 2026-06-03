@@ -1,16 +1,84 @@
-# React + Vite
+# 🚀 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio built to showcase my frontend development skills, projects, and design approach. It highlights my ability to build responsive, modern, and user-friendly web interfaces.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Overview
 
-## React Compiler
+A fully responsive portfolio website built with React and Tailwind CSS.  
+It focuses on clean design, smooth layout structure, and mobile-first responsiveness.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design (mobile, tablet, desktop)
+- Modern UI layout
+- Smooth scrolling navigation
+- Projects showcase section
+- Contact section
+- Clean component structure
+
+---
+
+## 🛠️ Built With
+
+- React
+- Tailwind CSS
+- JavaScript (ES6+)
+- HTML5
+
+---
+
+## 📷 Screenshots
+
+### Desktop View
+![Desktop Screenshot](./public/screenshot/portfolio.jpg)
+
+### Mobile View
+![Mobile Screenshot](./public/screenshot/portfolio-mobile.jpg)
+
+---
+
+## 🌍 Live Demo
+
+👉 [View Live Site](https://morakinyo-deborah-portfolio.vercel.app)
+
+---
+
+## 📁 GitHub Repository
+
+👉 [Source Code](https://github.com/MorakinyoErioluwa/Morakinyo-Deborah-s-Portfolio.git)
+
+---
+
+## 🧠 What I Learned
+
+- Structuring a full React project
+- Using Tailwind CSS for responsive design
+- Component-based architecture
+- Deploying projects using Vercel
+- Optimizing assets for performance
+
+---
+
+## 🚀 Future Improvements
+
+- Add animations and transitions
+- Improve accessibility
+- Add dark/light theme toggle
+- Enhance project filtering system
+
+---
+
+## 👩‍💻 Author
+
+**Morakinyo Deborah**  
+Frontend Developer passionate about building clean and interactive web experiences.
+
+---
+
+## 📌 Note
+
+This project is part of my frontend development journey and continuous practice with modern web technologies.

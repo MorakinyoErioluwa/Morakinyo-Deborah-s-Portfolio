@@ -43,8 +43,8 @@ const projects = [
     title: "Portfolio",
     description: "Personal portfolio showcasing projects and frontend skills.",
     image: "/screenshot/portfolio.jpg",
-    live: "https://the-loopsided-landing-page.netlify.app/",
-    code: "https://github.com/Erioluwabee/THE-LOOPSIDED-LANDING.git"
+    live: "https://morakinyo-deborah-portfolio.vercel.app",
+    code: "https://github.com/MorakinyoErioluwa/Morakinyo-Deborah-s-Portfolio.git"
   }
 ]
 
@@ -83,11 +83,19 @@ export default function Projects() {
           >
 
             {/* project image */}
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full h-[200px] object-cover object-top"
-            />
+            <a
+              href={project.live} className="block overflow-hidden border-4 border-red-500"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block overflow-hidden"
+            >
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-[200px] object-cover object-top transition duration-500 hover:scale-105"
+              />
+            </a>
+            
 
             <div className="p-6">
 

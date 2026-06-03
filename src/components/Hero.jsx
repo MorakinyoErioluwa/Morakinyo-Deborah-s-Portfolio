@@ -6,7 +6,7 @@ export default function Hero() {
 
       <div className="absolute bottom-[-120px] right-[-120px] w-[300px] h-[300px] bg-purple-500/20 blur-3xl rounded-full"></div>
 
-      <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center gap-20 px-6 md:px-12 lg:px-20 pt-32">
+      <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center gap-12 lg:gap-20 px-6 md:px-12 lg:px-20 pt-32">
 
         <div className="flex-1 text-center lg:text-left">
 
@@ -16,7 +16,7 @@ export default function Hero() {
           </p>
 
           {/* heading */}
-          <h1 className="font-['Space_Grotesk'] text-5xl md:text-7xl leading-tight font-bold max-w-[700px]">
+          <h1 className="font-['Space_Grotesk'] text-5xl md:text-7xl leading-tight font-bold max-w-[700px] mx-auto lg:mx-0">
              Turning ideas into interactive web interfaces.
           </h1>
 
