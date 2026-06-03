@@ -16,12 +16,12 @@ export default function Hero() {
           </p>
 
           {/* heading */}
-          <h1 className="font-['Space_Grotesk'] text-5xl md:text-7xl leading-tight font-bold max-w-[700px] mx-auto lg:mx-0">
+          <h1 className="font-['Space_Grotesk'] text-4xl sm:text-5xl md:text-7xl leading-tight font-bold max-w-[700px] mx-auto lg:mx-0">
              Turning ideas into interactive web interfaces.
           </h1>
 
           {/* subheading */}
-          <p className="mt-8 text-lg leading-8 text-gray-400 max-w-[600px]">
+          <p className="mt-8 text-lg leading-8 text-gray-400 max-w-[600px] mx-auto lg:mx-0">
             From concept to screen, I enjoy building digital experiences that are clean, engaging and easy to use.
           </p>
 
