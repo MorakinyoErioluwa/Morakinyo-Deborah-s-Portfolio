@@ -1,4 +1,35 @@
+import { useState } from "react";
 export default function Contact() {
+
+  const [loading, setLoading] = useState(false);
+const [success, setSuccess] = useState(false);
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  setLoading(true);
+
+  const formData = new FormData(e.target);
+
+  const response = await fetch("https://formspree.io/f/mqejwgdn", {
+    method: "POST",
+    body: formData,
+    headers: {
+      Accept: "application/json",
+    },
+  });
+
+  if (response.ok) {
+    e.target.reset();
+    setSuccess(true);
+
+    setTimeout(() => {
+      setSuccess(false);
+    }, 4000);
+  }
+
+  setLoading(false);
+};
   return (
     <section
       id="contact"
@@ -45,43 +76,49 @@ export default function Contact() {
         <div>
 
           <form
-          action="https://formspree.io/f/mqejwgdn"
-          method="POST"
-          className="flex flex-col gap-6">
+  onSubmit={handleSubmit}
+  className="flex flex-col gap-6"
+>
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required
+    className="px-5 py-4 rounded-xl bg-black/[0.03] dark:bg-white/[0.03] border border-black/10 dark:border-white/10 text-black dark:text-white outline-none focus:border-cyan-400 transition"
+  />
 
-            <input
-              type="text"
-              placeholder="Your Name"
-              required
-              className="px-5 py-4 rounded-xl bg-black/[0.03] dark:bg-white/[0.03] border border-black/10 dark:border-white/10 text-black dark:text-white outline-none focus:border-cyan-400 transition"
-            />
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required
+    className="px-5 py-4 rounded-xl bg-black/[0.03] dark:bg-white/[0.03] border border-black/10 dark:border-white/10 text-black dark:text-white outline-none focus:border-cyan-400 transition"
+  />
 
-            <input
-              type="email"
-              placeholder="Your Email"
-              required
-              className="px-5 py-4 rounded-xl bg-black/[0.03] dark:bg-white/[0.03] border border-black/10 dark:border-white/10 text-black dark:text-white outline-none focus:border-cyan-400 transition"
-            />
+  <textarea
+    rows="6"
+    name="message"
+    placeholder="Your Message"
+    required
+    className="px-5 py-4 rounded-xl bg-black/[0.03] dark:bg-white/[0.03] border border-black/10 dark:border-white/10 text-black dark:text-white outline-none focus:border-cyan-400 transition resize-none"
+  ></textarea>
 
-            <textarea
-              rows="6"
-              placeholder="Your Message"
-              required
-              className="px-5 py-4 rounded-xl bg-black/[0.03] dark:bg-white/[0.03] border border-black/10 dark:border-white/10 text-black dark:text-white outline-none focus:border-cyan-400 transition resize-none"
-            ></textarea>
+  <div className="flex justify-center lg:justify-start">
+    <button
+      type="submit"
+      disabled={loading}
+      className="bg-cyan-400 text-black font-semibold py-4 rounded-xl hover:scale-[1.02] transition w-fit px-10 disabled:opacity-70"
+    >
+      {loading ? "Sending..." : "Send Message"}
+    </button>
+  </div>
 
-            <div className="flex justify-center lg:justify-start">
-
-              <button
-                type="submit"
-                className="bg-cyan-400 text-black font-semibold py-4 rounded-xl hover:scale-[1.02] transition w-fit px-10"
-              >
-                Send Message
-              </button>
-
-            </div>
-
-          </form>
+  {success && (
+    <p className="text-green-500 font-medium">
+      Message sent successfully!
+    </p>
+  )}
+</form>
 
         </div>
 
