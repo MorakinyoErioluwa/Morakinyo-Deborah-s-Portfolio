@@ -1,10 +1,10 @@
 const projects = [
   {
-    title: "News Homepage",
-    description: "Responsive news homepage with clean layout and typography.",
-    image: "/screenshot/Newshomepgae-desktop.jpg",
-    live: "https://interactive-dropdownproject.vercel.app",
-    code: "https://github.com/MorakinyoErioluwa/Newspage-Homepage-Project.git"
+    title: "Movie Search",
+    description: "A movie search app using OMDD API.",
+    image: "/screenshot/search.jpg",
+    live: "https://rud-a.vercel.app/",
+    code: "https://github.com/MorakinyoErioluwa/Movie-search.git"
   },
 
   {
@@ -24,11 +24,11 @@ const projects = [
   },
 
   {
-    title: "Interactive DropDown",
-    description: "Responsive interface with dynamic states and interactions.",
-    image: "/screenshot/Interactive dropdown-desktop.png",
-    live: "https://interactive-dropdown.vercel.app/",
-    code: "https://github.com/MorakinyoErioluwa/Interactive-Dropdown-.git"
+    title: "A TO-D0 App",
+    description: "A to-do app that saves tasks using Local Storage,",
+    image: "/screenshot/Desktop-To-Do.png",
+    live: "https://to-do-virid-omega.vercel.app//",
+    code: "https://github.com/MorakinyoErioluwa/To-Do.git"
   },
 
   {

@@ -20,7 +20,7 @@ export default function About() {
           
           {/* heading */}
           <h2 className="font-['Space_Grotesk']  text-4xl md:text-6xl font-bold leading-tight max-w-[800px]">
-            I build responsive interfaces and turn ideas into real web experiences.
+            I build responsive interfaces and turn ideas into web experiences.
           </h2>
 
         </div>
@@ -31,7 +31,7 @@ export default function About() {
 
             {/* first paragraph, description 1 */}
             <p className="text-lg leading-9 text-gray-600 dark:text-gray-400">
-
+              My name is MORAKINYO DEBORAH and 
               I’m a frontend developer focused on building clean and responsive web interfaces.
                I enjoy translating designs into working products that look good and function properly across
                 all screen sizes.
