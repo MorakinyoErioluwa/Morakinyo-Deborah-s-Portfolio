@@ -16,13 +16,7 @@ export default function About() {
           {/* intro to section */}
           <p className="uppercase tracking-[5px] text-cyan-400 text-sm font-semibold mb-6">
             About Me
-          </p>
-          
-          {/* heading */}
-          <h2 className="font-['Space_Grotesk']  text-4xl md:text-6xl font-bold leading-tight max-w-[800px]">
-            I build responsive interfaces and turn ideas into web experiences.
-          </h2>
-
+          </p>      
         </div>
 
         <div className="grid lg:grid-cols-2 gap-14">
@@ -31,7 +25,7 @@ export default function About() {
 
             {/* first paragraph, description 1 */}
             <p className="text-lg leading-9 text-gray-600 dark:text-gray-400">
-              My name is MORAKINYO DEBORAH and 
+              My name is Morakinyo Deborah and 
               I’m a frontend developer focused on building clean and responsive web interfaces.
                I enjoy translating designs into working products that look good and function properly across
                 all screen sizes.

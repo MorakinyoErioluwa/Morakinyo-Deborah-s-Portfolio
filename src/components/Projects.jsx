@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "Movie Search",
+    title: "Movie Search App",
     description: "A movie search app using OMDD API.",
     image: "/screenshot/search.jpg",
     live: "https://rud-a.vercel.app/",
@@ -69,7 +69,7 @@ export default function Projects() {
 
         {/* subheading */}
         <p className="text-gray-600 dark:text-gray-400 mt-4 max-w-xl">
-          Some projects I’ve built while learning frontend development.
+          A showcase of some of the projects that I have worked on.
         </p>
 
       </div>

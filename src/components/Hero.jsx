@@ -16,8 +16,8 @@ export default function Hero() {
           </p>
 
           {/* heading */}
-          <h1 className="font-['Space_Grotesk'] text-4xl sm:text-5xl md:text-7xl leading-tight font-bold max-w-[700px] mx-auto lg:mx-0">
-             Hello, My name is MORAKINYO DEBORAH.
+          <h1 className="font-['Space_Grotesk'] text-4xl sm:text-5xl md:text-5xl leading-tight font-bold max-w-[700px] mx-auto lg:mx-0">
+             Hello, My name is Morakinyo Deborah.
           </h1>
 
           {/* subheading */}
