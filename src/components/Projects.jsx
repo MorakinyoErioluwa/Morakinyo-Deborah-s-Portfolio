@@ -16,12 +16,13 @@ const projects = [
   },
 
   {
-    title: "Loopstudio",
-    description: "Interactive landing page with strong visual hierarchy.",
-    image: "/screenshot/Loopsided-desktop.jpg",
-    live: "https://loopsided-landing-page.vercel.app/",
-    code: "https://github.com/MorakinyoErioluwa/loopsided-landing-page.git"
+    title: "FlowSync landing page",
+    description: "A Saas PM landing page using React.",
+    image: "/screenshot/Flowsync.png",
+    live: "https://fsyyncc.vercel.app/",
+    code: "https://github.com/MorakinyoErioluwa/FlowSync.git"
   },
+
 
   {
     title: "A TO-D0 App",
