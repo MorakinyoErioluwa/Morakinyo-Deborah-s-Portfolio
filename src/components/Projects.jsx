@@ -18,9 +18,9 @@ const projects = [
   {
     title: "GagBook landing page",
     description: "A GagBook landing page using React.",
-    image: "/screenshot/Flowsync.png",
-    live: "https://fsyyncc.vercel.app/",
-    code: "https://github.com/MorakinyoErioluwa/FlowSync.git"
+    image: "/screenshot/gag-desktop.jpg",
+    live: "https://gag-book-landing-page.vercel.app/",
+    code: "https://github.com/MorakinyoErioluwa/Gag-book-landing-page"
   },
 
 
