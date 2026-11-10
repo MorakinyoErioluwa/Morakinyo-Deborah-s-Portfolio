@@ -1,11 +1,20 @@
 const projects = [
   {
-    title: "Movie Search App",
-    description: "A movie search app using OMDD API.",
-    image: "/screenshot/search.jpg",
-    live: "https://rud-a.vercel.app/",
+    title: "SwayD E-commerce Website",
+    description: "Swayds E-commerce website",
+    image: "/screenshot/swayd.png",
+    live: "https://swayyd.vercel.app/",
     code: "https://github.com/MorakinyoErioluwa/Movie-search.git"
   },
+
+{
+    title: "FlowSync landing page",
+    description: "A Saas PM landing page using React.",
+    image: "/screenshot/Flowsync.png",
+    live: "https://fsyyncc.vercel.app/",
+    code: "https://github.com/MorakinyoErioluwa/FlowSync.git"
+  },
+
 
   {
     title: "Sunnyside Landing Page",
@@ -16,11 +25,11 @@ const projects = [
   },
 
   {
-    title: "FlowSync landing page",
-    description: "A Saas PM landing page using React.",
-    image: "/screenshot/Flowsync.png",
-    live: "https://fsyyncc.vercel.app/",
-    code: "https://github.com/MorakinyoErioluwa/FlowSync.git"
+    title: "Movie Search App",
+    description: "A movie search app using OMDD API.",
+    image: "/screenshot/search.jpg",
+    live: "https://rud-a.vercel.app/",
+    code: "https://github.com/MorakinyoErioluwa/Movie-search.git"
   },
 
 
@@ -32,21 +41,6 @@ const projects = [
     code: "https://github.com/MorakinyoErioluwa/To-Do.git"
   },
 
-  {
-    title: "Calculator",
-    description: " Mini app for calculating bill tips with real-time updates.",
-    image: "/screenshot/Tip calculator-desktop.png",
-    live: "https://tip-calculator-project-ten.vercel.app",
-    code: "https://github.com/MorakinyoErioluwa/Tip-calculator-Project.git"
-  },
-
-  {
-    title: "Portfolio",
-    description: "Personal portfolio showcasing projects and frontend skills.",
-    image: "/screenshot/portfolio.jpg",
-    live: "https://morakinyo-deborah-portfolio.vercel.app",
-    code: "https://github.com/MorakinyoErioluwa/Morakinyo-Deborah-s-Portfolio.git"
-  }
 ]
 
 export default function Projects() {
