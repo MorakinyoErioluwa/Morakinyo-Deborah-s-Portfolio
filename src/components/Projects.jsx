@@ -2,14 +2,22 @@ const projects = [
   {
     title: "SwayD E-commerce Website",
     description: "Swayds E-commerce website",
-    image: "/screenshot/swayd.png",
+    image: "/screenshot/swayd_desktop.jpg",
     live: "https://swayyd.vercel.app/",
-    code: "https://github.com/MorakinyoErioluwa/Movie-search.git"
+    code: "https://github.com/MorakinyoErioluwa/swayd"
   },
 
 {
     title: "FlowSync landing page",
     description: "A Saas PM landing page using React.",
+    image: "/screenshot/Flowsync.png",
+    live: "https://fsyyncc.vercel.app/",
+    code: "https://github.com/MorakinyoErioluwa/FlowSync.git"
+  },
+
+  {
+    title: "GagBook landing page",
+    description: "A GagBook landing page using React.",
     image: "/screenshot/Flowsync.png",
     live: "https://fsyyncc.vercel.app/",
     code: "https://github.com/MorakinyoErioluwa/FlowSync.git"
@@ -79,7 +87,7 @@ export default function Projects() {
 
             {/* project image */}
             <a
-              href={project.live} className="block overflow-hidden border-4 border-red-500"
+              href={project.live}
               target="_blank"
               rel="noopener noreferrer"
               className="block overflow-hidden"
